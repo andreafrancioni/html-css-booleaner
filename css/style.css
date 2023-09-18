@@ -1,7 +1,3 @@
-body{
-
-}
-
 header {
     background-color: #3273a8;
     background-image: url(../img/pattern.png);
@@ -17,6 +13,11 @@ header img{
 table{
     text-align: left;
     background-color: #9ad1ff;
+    border-spacing: 0px;
+}
+
+th.tablespacing{
+    width: 30%;
 }
 
 tr.header-tab{
@@ -26,4 +27,12 @@ tr.header-tab{
 
 tr.pair-row{
     background-color: white;
+}
+
+section p{
+    margin: 0;
+}
+
+section h1{
+    margin-bottom: 0px;
 }
